@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/mafia",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Mafia\\": "app/",
+            "Modules\\Mafia\\Database\\Factories\\": "database/factories/",
+            "Modules\\Mafia\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Mafia\\Tests\\": "tests/"
+        }
+    }
+}

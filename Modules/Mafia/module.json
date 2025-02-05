@@ -1,0 +1,11 @@
+{
+    "name": "Mafia",
+    "alias": "mafia",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Mafia\\Providers\\MafiaServiceProvider"
+    ],
+    "files": []
+}
